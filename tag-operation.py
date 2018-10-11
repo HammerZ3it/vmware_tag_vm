@@ -27,7 +27,6 @@ url = 'https://{}/api'.format(vcenter_server)
 vcenter_username = 'vcenter_user' #User with enough privilege
 vcenter_password = 'vcenter_users_pw'
 vcenter_cluster_name = 'vcenter_cluster_name'
-vm_name = 'Virtualmachine_name'
 
 def get_vm_id(name):
     """Find vm id by given name using pyVmomi."""
